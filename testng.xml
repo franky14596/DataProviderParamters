@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test  name="Test">
+  <parameter name="email" value="xyz12@gmail.com"></parameter>
+  <parameter name="key" value="12345678"></parameter>
+    <classes>
+      <class name="com.amaz.stepdefinition.LoginValidation"/>
+      <class name="com.amaz.stepdefinition.SearchValidation"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
